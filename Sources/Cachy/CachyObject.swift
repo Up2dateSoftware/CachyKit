@@ -1,6 +1,7 @@
 import UIKit
 
-public class CachyObject: NSObject, NSCoding {
+public class CachyObject: NSObject, NSCoding, NSSecureCoding {
+public static var supportsSecureCoding: Bool = true
     // MARK: - Singleton properties
 
     // MARK: - Static properties
